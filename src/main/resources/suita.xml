@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Primul test" verbose="1" >
+    <test name="Primul test din TestNG .xml file" >
+
+<!--       Aici am testat o suita dupa clasa-->
+
+<!--        <classes>-->
+<!--            <class name="desktop.test.BasicAjaxExampleTestWithWait" />-->
+<!--        </classes>-->
+
+<!--        Aici am testat o suita dupa package-->
+        <packages>
+            <package name="desktop.test"></package>
+        </packages>
+    </test>
+
+<!--        <test name="Al doilea test din TestNG .xml file">-->
+<!--            <classes>-->
+<!--                <class name="mobile.test.BasicAjaxExampleTestWithWait"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+</suite>
