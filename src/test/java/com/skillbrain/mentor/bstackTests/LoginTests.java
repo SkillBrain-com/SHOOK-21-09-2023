@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class LoginTests extends BasePage {
 
     @Test
-    public void successfulLogin() throws InterruptedException {
+    public void successfulLogin() {
         LoginPage loginPage = new LoginPage(driver);
         driver.get("https://bstackdemo.com/signin");
         loginPage.login("demouser", "testingisfun99");
@@ -22,5 +22,13 @@ public class LoginTests extends BasePage {
         loginPage.verifyLockedAccountLogin();
     }
 
+    @Test
+    public void faildLogin()  {
+        LoginPage loginPage = new LoginPage(driver);
+        driver.get("https://bstackdemo.com/signin");
+        loginPage.login("demouser", "ggdfsgsg");
+        loginPage.verifyFaildLogin();
+
+    }
 
 }
