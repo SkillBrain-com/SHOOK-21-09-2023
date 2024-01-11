@@ -3,13 +3,13 @@
 <suite name="Failed suite [demoqa]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="loginTests(failed)">
     <classes>
-      <class name="com.skillbrain.mentor.bstackTests.SuccessfulLogin">
+      <class name="com.skillbrain.mentor.bstackTests.LoginTests">
         <methods>
           <include name="TC02_lockedAccountLogin"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.skillbrain.mentor.bstackTests.SuccessfulLogin -->
+      </class> <!-- com.skillbrain.mentor.bstackTests.LoginTests -->
     </classes>
   </test> <!-- loginTests(failed) -->
 </suite> <!-- Failed suite [demoqa] -->

@@ -2,38 +2,36 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-11T19:41:38 EET" name="demoqa" finished-at="2024-01-11T19:41:46 EET" duration-ms="7938">
+  <suite started-at="2024-01-11T19:46:12 EET" name="demoqa" finished-at="2024-01-11T19:46:20 EET" duration-ms="7823">
     <groups>
     </groups>
-    <test started-at="2024-01-11T19:41:38 EET" name="loginTests" finished-at="2024-01-11T19:41:46 EET" duration-ms="7938">
-      <class name="com.skillbrain.mentor.bstackTests.SuccessfulLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.skillbrain.mentor.bstackTests.SuccessfulLogin@5bfa9431]" started-at="2024-01-11T19:41:38 EET" name="setup" finished-at="2024-01-11T19:41:40 EET" duration-ms="2050" status="PASS">
+    <test started-at="2024-01-11T19:46:12 EET" name="loginTests" finished-at="2024-01-11T19:46:20 EET" duration-ms="7823">
+      <class name="com.skillbrain.mentor.bstackTests.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:12 EET" name="setup" finished-at="2024-01-11T19:46:14 EET" duration-ms="1939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC01_successfulLogin()[pri:0, instance:com.skillbrain.mentor.bstackTests.SuccessfulLogin@5bfa9431]" started-at="2024-01-11T19:41:40 EET" name="TC01_successfulLogin" finished-at="2024-01-11T19:41:43 EET" duration-ms="3167" status="PASS">
+        <test-method signature="TC01_successfulLogin()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:14 EET" name="TC01_successfulLogin" finished-at="2024-01-11T19:46:17 EET" duration-ms="3104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC01_successfulLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skillbrain.mentor.bstackTests.SuccessfulLogin@5bfa9431]" started-at="2024-01-11T19:41:43 EET" name="tearDown" finished-at="2024-01-11T19:41:43 EET" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:17 EET" name="tearDown" finished-at="2024-01-11T19:46:17 EET" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.skillbrain.mentor.bstackTests.SuccessfulLogin -->
-      <class name="com.skillbrain.mentor.bstackTests.LockedAccountLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.skillbrain.mentor.bstackTests.LockedAccountLogin@3c72f59f]" started-at="2024-01-11T19:41:43 EET" name="setup" finished-at="2024-01-11T19:41:45 EET" duration-ms="1218" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:17 EET" name="setup" finished-at="2024-01-11T19:46:18 EET" duration-ms="1185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="TC02_lockedAccountLogin()[pri:0, instance:com.skillbrain.mentor.bstackTests.LockedAccountLogin@3c72f59f]" started-at="2024-01-11T19:41:45 EET" name="TC02_lockedAccountLogin" finished-at="2024-01-11T19:41:46 EET" duration-ms="1133" status="PASS">
+        <test-method signature="TC02_lockedAccountLogin()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:18 EET" name="TC02_lockedAccountLogin" finished-at="2024-01-11T19:46:20 EET" duration-ms="1194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC02_lockedAccountLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skillbrain.mentor.bstackTests.LockedAccountLogin@3c72f59f]" started-at="2024-01-11T19:41:46 EET" name="tearDown" finished-at="2024-01-11T19:41:46 EET" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.skillbrain.mentor.bstackTests.LoginTests@3bd40a57]" started-at="2024-01-11T19:46:20 EET" name="tearDown" finished-at="2024-01-11T19:46:20 EET" duration-ms="177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.skillbrain.mentor.bstackTests.LockedAccountLogin -->
+      </class> <!-- com.skillbrain.mentor.bstackTests.LoginTests -->
     </test> <!-- loginTests -->
   </suite> <!-- demoqa -->
 </testng-results>

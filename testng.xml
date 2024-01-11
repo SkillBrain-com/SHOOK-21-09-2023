@@ -9,8 +9,7 @@
 <!--    </test>-->
     <test name="loginTests">
         <classes>
-            <class name="com.skillbrain.mentor.bstackTests.SuccessfulLogin"/>
-            <class name="com.skillbrain.mentor.bstackTests.LockedAccountLogin"/>
+            <class name="com.skillbrain.mentor.bstackTests.LoginTests"/>
         </classes>
     </test>
 </suite>
