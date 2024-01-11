@@ -42,9 +42,9 @@ public class ProductPage {
         Thread.sleep(2000);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(emptyCartParagraf)));
         String emtyParagraf = driver.findElement(emptyCartParagraf).getText();
-        Assert.assertEquals(emtyParagraf, "Add some products in the bag ");
 
         System.out.println(emtyParagraf);
+        Assert.assertEquals(emtyParagraf, "Add some products in the bag\n:)");
 
     }
 
