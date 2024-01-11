@@ -16,6 +16,7 @@ public class LoginPage {
     private By loginButton = By.id("login-btn");
     private By usernameElement = By.cssSelector("span.username");
     private By logoutButton = By.id("logout");
+    private By lockedAccountError = By.cssSelector("h3.api-error");
     WebDriver driver;
     WebDriverWait wait;
 
@@ -24,7 +25,7 @@ public class LoginPage {
         wait =new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
-    public void successfulLogin(String username, String password) throws InterruptedException {
+    public void login(String username, String password) {
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(usernameField)));
         driver.findElement(usernameField).sendKeys(username);
         driver.findElement(usernameField).sendKeys(Keys.ENTER);
@@ -34,7 +35,7 @@ public class LoginPage {
         driver.findElement(loginButton).click();
     }
 
-    public void verifyLogin() throws InterruptedException {
+    public void verifySuccessfulLogin() throws InterruptedException {
         Thread.sleep(2000);
         String actualURL = driver.getCurrentUrl();
 
@@ -45,6 +46,12 @@ public class LoginPage {
         Assert.assertEquals(actualUsername, "demouser");
 
         Assert.assertTrue(driver.findElement(logoutButton).isDisplayed());
+    }
 
+    public void verifyLockedAccountLogin(){
+    Assert.assertTrue(driver.findElement(lockedAccountError).isDisplayed());
+
+    String errorMessage = driver.findElement(lockedAccountError).getText();
+    Assert.assertEquals(errorMessage, "Your account has been locked.");
     }
 }

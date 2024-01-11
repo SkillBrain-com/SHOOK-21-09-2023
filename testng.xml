@@ -4,12 +4,13 @@
 <suite name="demoqa">
 <!--    <test name="textBoxes">-->
 <!--        <classes>-->
-<!--            <class name="com.skillbrain.mentor.TextBoxPageTest"></class>-->
+<!--            <class name="com.skillbrain.mentor.demoqaTests.TextBoxPageTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
     <test name="loginTests">
         <classes>
-            <class name="com.skillbrain.mentor.LoginTests"></class>
+            <class name="com.skillbrain.mentor.bstackTests.SuccessfulLogin"/>
+            <class name="com.skillbrain.mentor.bstackTests.LockedAccountLogin"/>
         </classes>
     </test>
 </suite>

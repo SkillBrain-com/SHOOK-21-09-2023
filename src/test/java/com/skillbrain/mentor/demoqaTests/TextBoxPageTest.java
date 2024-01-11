@@ -1,4 +1,4 @@
-package com.skillbrain.mentor;
+package com.skillbrain.mentor.demoqaTests;
 
 import com.skillbrain.mentor.pages.demoqa.TextBoxPage;
 import com.skillbrain.mentor.utils.BasePage;
