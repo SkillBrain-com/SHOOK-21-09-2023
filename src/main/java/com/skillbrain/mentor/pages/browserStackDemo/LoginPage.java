@@ -17,6 +17,7 @@ public class LoginPage {
     private By usernameElement = By.cssSelector("span.username");
     private By logoutButton = By.id("logout");
     private By errorMessages = By.cssSelector("h3.api-error");
+
     WebDriver driver;
     WebDriverWait wait;
 

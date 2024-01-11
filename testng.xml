@@ -7,9 +7,15 @@
 <!--            <class name="com.skillbrain.mentor.demoqaTests.TextBoxPageTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
+<!--    <test name="loginTests">-->
+<!--        <classes>-->
+<!--            <class name="com.skillbrain.mentor.bstackTests.LoginTests"/>-->
+<!--        </classes>-->
+<!--    </test>-->
     <test name="loginTests">
         <classes>
-            <class name="com.skillbrain.mentor.bstackTests.LoginTests"/>
+            <class name="com.skillbrain.mentor.bstackTests.AddToCardTes"/>
         </classes>
     </test>
+
 </suite>
