@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-demoqa">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-demoqa" title="com.skillbrain.mentor.TextBoxPageTest" class="method navigator-link" hash-for-method="textBoxTest">textBoxTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-demoqa" title="com.skillbrain.mentor.LoginTests" class="method navigator-link" hash-for-method="successfulLogin">successfulLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-demoqa -->
@@ -121,14 +121,14 @@
           <div class="suite-demoqa-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.skillbrain.mentor.TextBoxPageTest</span>
+              <span class="class-name">com.skillbrain.mentor.LoginTests</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="textBoxTest">
-                  </a> <!-- textBoxTest -->
-                  <span class="method-name">textBoxTest</span>
+                  <a name="successfulLogin">
+                  </a> <!-- successfulLogin -->
+                  <span class="method-name">successfulLogin</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -143,11 +143,11 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;demoqa&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;textBoxes&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;loginTests&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.skillbrain.mentor.TextBoxPageTest&quot;/&gt;
+      &lt;class name=&quot;com.skillbrain.mentor.LoginTests&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- textBoxes --&gt;
+  &lt;/test&gt; &lt;!-- loginTests --&gt;
 &lt;/suite&gt; &lt;!-- demoqa --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +159,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">textBoxes (1 class)</span>
+                <span class="test-name">loginTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -187,14 +187,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'textBoxTest')
-data.setCell(0, 2, 'com.skillbrain.mentor.TextBoxPageTest')
-data.setCell(0, 3, 3630);
+data.setCell(0, 1, 'successfulLogin')
+data.setCell(0, 2, 'com.skillbrain.mentor.LoginTests')
+data.setCell(0, 3, 61108);
 window.suiteTableData['demoqa']= { tableData: data, tableDiv: 'times-div-demoqa'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-demoqa">
               </div> <!-- times-div-demoqa -->
             </div> <!-- times-div -->
@@ -220,18 +220,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.skillbrain.mentor.TextBoxPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.skillbrain.mentor.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">textBoxTest</span>
-                <span class="method-start">2044 ms</span>
+                <span class="method-name">successfulLogin</span>
+                <span class="method-start">1865 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5676 ms</span>
+                <span class="method-start">62977 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
