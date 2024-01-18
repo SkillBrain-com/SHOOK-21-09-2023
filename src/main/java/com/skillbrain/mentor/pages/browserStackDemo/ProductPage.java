@@ -17,6 +17,11 @@ public class ProductPage {
 
     private By emptyCartParagraf = By.cssSelector("p[class=\"shelf-empty\"]");
 
+    private By productName = By.cssSelector("p.title");
+    private By productQuantity = By.cssSelector("p.desc");
+    private By checkoutButton = By.cssSelector("div.buy-btn");
+    private By shelfItem = By.cssSelector("div.shelf-item");
+
 
 
     WebDriver driver;
@@ -41,11 +46,25 @@ public class ProductPage {
 
         Thread.sleep(2000);
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(emptyCartParagraf)));
-        String emtyParagraf = driver.findElement(emptyCartParagraf).getText();
+        String emptyParagraf = driver.findElement(emptyCartParagraf).getText();
 
-        System.out.println(emtyParagraf);
-        Assert.assertEquals(emtyParagraf, "Add some products in the bag\n:)");
+        System.out.println(emptyParagraf);
+        Assert.assertEquals(emptyParagraf, "Add some products in the bag\n:)");
 
+    }
+
+    public void addToCart() throws InterruptedException {
+        driver.findElement(addToCart).click();
+
+        wait.until(ExpectedConditions.visibilityOf(driver.findElement(shelfItem)));
+
+        String actualProductName = driver.findElement(productName).getText();
+        Assert.assertEquals(actualProductName,"iPhone 12");
+
+        String actualQuantity = driver.findElement(productQuantity).getText();
+        Assert.assertEquals(actualQuantity,"Apple\nQuantity: 1");
+
+        driver.findElement(checkoutButton).click();
     }
 
 

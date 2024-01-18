@@ -4,7 +4,7 @@ import com.skillbrain.mentor.pages.browserStackDemo.ProductPage;
 import com.skillbrain.mentor.utils.BasePage;
 import org.testng.annotations.Test;
 
-public class AddToCardTes extends BasePage {
+public class AddToCardTest extends BasePage {
 
     @Test
     public void addAndRemove() throws InterruptedException {

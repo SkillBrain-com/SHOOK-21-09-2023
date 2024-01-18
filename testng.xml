@@ -12,9 +12,14 @@
 <!--            <class name="com.skillbrain.mentor.bstackTests.LoginTests"/>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="loginTests">
+<!--    <test name="loginTests">-->
+<!--        <classes>-->
+<!--            <class name="com.skillbrain.mentor.bstackTests.AddToCardTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Buy product">
         <classes>
-            <class name="com.skillbrain.mentor.bstackTests.AddToCardTes"/>
+            <class name="com.skillbrain.mentor.bstackTests.BuyProductTest"/>
         </classes>
     </test>
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [demoqa]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="loginTests(failed)">
+  <test thread-count="5" name="Buy product(failed)">
     <classes>
-      <class name="com.skillbrain.mentor.bstackTests.LoginTests">
+      <class name="com.skillbrain.mentor.bstackTests.BuyProductTest">
         <methods>
-          <include name="TC02_lockedAccountLogin"/>
           <include name="setup"/>
+          <include name="buyProduct"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.skillbrain.mentor.bstackTests.LoginTests -->
+      </class> <!-- com.skillbrain.mentor.bstackTests.BuyProductTest -->
     </classes>
-  </test> <!-- loginTests(failed) -->
+  </test> <!-- Buy product(failed) -->
 </suite> <!-- Failed suite [demoqa] -->

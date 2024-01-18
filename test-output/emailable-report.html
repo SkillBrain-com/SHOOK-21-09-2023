@@ -9,11 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">demoqa</th></tr>
-<tr><td><a href="#t0">loginTests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,823</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Buy product</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">4,472</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">demoqa</th></tr></tbody><tbody id="t0"><tr><th colspan="4">loginTests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.skillbrain.mentor.bstackTests.LoginTests</td><td><a href="#m0">TC01_successfulLogin</a></td><td rowspan="1">1704995174492</td><td rowspan="1">3104</td></tr><tr class="passedeven"><td><a href="#m1">TC02_lockedAccountLogin</a></td><td rowspan="1">1704995178964</td><td rowspan="1">1194</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">demoqa</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Buy product &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.skillbrain.mentor.bstackTests.BuyProductTest</td><td><a href="#m0">buyProduct</a></td><td rowspan="1">1705431962715</td><td rowspan="1">2148</td></tr></tbody>
 </table>
-<h2>loginTests</h2><h3 id="m0">com.skillbrain.mentor.bstackTests.LoginTests#TC01_successfulLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.skillbrain.mentor.bstackTests.LoginTests#TC02_lockedAccountLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Buy product</h2><h3 id="m0">com.skillbrain.mentor.bstackTests.BuyProductTest#buyProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.16.1&apos;, revision: &apos;9b4c83354e&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb1e088fd7ade8f7ca721a4122eab781, sendKeysToElement {id=4033B2980B1ED5FD6D5897064EB4D90C_element_161, value=[Ljava.lang.CharSequence;@2fe74516}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\andre\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57041/devtoo..., se:cdpVersion: 120.0.6099.217, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fb1e088fd7ade8f7ca721a4122eab781)] -&gt; id: firstNameInput]
+Session ID: fb1e088fd7ade8f7ca721a4122eab781
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
+	at com.skillbrain.mentor.pages.browserStackDemo.CheckoutPage.fillShippingAddress(CheckoutPage.java:33)
+	at com.skillbrain.mentor.bstackTests.BuyProductTest.buyProduct(BuyProductTest.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
