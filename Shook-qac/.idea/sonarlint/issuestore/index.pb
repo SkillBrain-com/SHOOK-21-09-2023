@@ -13,3 +13,9 @@ d
 4src/main/java/seleniumTema1/BasicWebPageExample.java,f\c\fc5b1113cf8e38042c8719b2fec75121469fb360
 m
 =src/main/java/com/skillbrain/mihailmacari/selenium1/Main.java,8\f\8f1e2c8f6c284b8adf08f982aa61751ec2721f8f
+p
+@src/main/java/com/skillbrain/mihailmacari/selenium1/Buttons.java,7\2\72fc4d3c229277caaf890523451a21fbccc921d0
+p
+@src/main/java/com/skillbrain/mihailmacari/selenium1/TestBox.java,5\5\55aac113f12e27b8ab92559ad8a8b999c71a902e
+p
+@src/main/java/com/skillbrain/mihailmacari/selenium1/TextBox.java,6\9\6986035aa4c22d2734c2751f617bb2c02a7f2312
