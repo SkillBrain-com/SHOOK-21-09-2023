@@ -37,6 +37,8 @@ public class LoginPage {
     }
 
     public void verifySuccessfulLogin()  {
+
+        wait.until(ExpectedConditions.urlContains("?signin=true"));
         String actualURL = driver.getCurrentUrl();
 
         Assert.assertEquals(actualURL, "https://bstackdemo.com/?signin=true");

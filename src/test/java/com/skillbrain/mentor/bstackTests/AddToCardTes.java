@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class AddToCardTes extends BasePage {
 
     @Test
-    public void addAndRemove() throws InterruptedException {
+    public void addAndRemove() {
 
         driver.get("https://bstackdemo.com/");
         ProductPage productPage = new ProductPage(driver);
