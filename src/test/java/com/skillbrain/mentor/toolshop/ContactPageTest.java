@@ -24,7 +24,7 @@ public class ContactPageTest extends BasePage {
         System.out.println(faker.name().firstName());
         System.out.println(faker.name().firstName());
 
-        contactPage.contactPage(dataGeneration.fName, dataGeneration.lName, dataGeneration.message, dataGeneration.message,"D:\\tema-cap8\\SHOOK-21-09-2023\\src\\main\\java\\com\\skillbrain\\mentor\\utils\\fisiertxt.txt");
+        contactPage.contactPage(dataGeneration.fName, dataGeneration.lName,dataGeneration.email, dataGeneration.message,"D:\\tema-cap8\\SHOOK-21-09-2023\\src\\main\\java\\com\\skillbrain\\mentor\\utils\\fisiertxt.txt");
         contactPage.verifyMessage();
 
 
