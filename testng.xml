@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="demoqa">
+<suite name="demoqa" preserve-order="true">
 <!--    <test name="textBoxes">-->
 <!--        <classes>-->
 <!--            <class name="com.skillbrain.mentor.demoqaTests.TextBoxPageTest"></class>-->
@@ -17,10 +17,18 @@
 <!--            <class name="com.skillbrain.mentor.bstackTests.AddToCardTest"/>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="Buy product">
+<!--    <test name="Buy product">-->
+<!--        <classes>-->
+<!--            <class name="com.skillbrain.mentor.bstackTests.BuyProductTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Sign up">
         <classes>
-            <class name="com.skillbrain.mentor.bstackTests.BuyProductTest"/>
+            <class name="com.skillbrain.mentor.demoBlaze.SignUpTest"/>
+            <class name="com.skillbrain.mentor.demoBlaze.LoginPageTest"/>
         </classes>
+
     </test>
+
 
 </suite>

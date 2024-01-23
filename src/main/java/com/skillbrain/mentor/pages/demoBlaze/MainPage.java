@@ -8,6 +8,8 @@ import java.time.Duration;
 
 public class MainPage {
 
+    private By signUp = By.id("signin2");
+
     private By contactButton =
             By.xpath("(//div[@id=\"navbarExample\"]//following-sibling::ul[@class=\"navbar-nav ml-auto\"]//following-sibling::li[@class=\"nav-item\"]//following-sibling::a)[1]");
 
@@ -20,6 +22,11 @@ public class MainPage {
     }
 
     public void openContactForm(){
+
         driver.findElement(contactButton).click();
+    }
+
+    public void signUpButton(){
+        driver.findElement(signUp).click();
     }
 }
