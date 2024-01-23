@@ -12,6 +12,10 @@ public class DataGeneration {
 
      public String email;
      public String message;
+     public String contactName;
+     public String contactEmail;
+     public String contactMessage;
+
 
 
     private static DataGeneration instance;
@@ -22,6 +26,9 @@ public class DataGeneration {
         lName = faker.name().lastName();
         email = fName + lName + "@mailinator.com";
         message = faker.lorem().characters(55);
+        contactName = faker.name().fullName();
+        contactEmail = faker.name().firstName() + "@mailinator.com";
+        contactMessage = faker.lorem().sentence(15);
 
     }
 
