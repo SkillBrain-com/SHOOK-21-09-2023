@@ -42,9 +42,9 @@ public class ProductPage {
     }
 
 
-    public void emptyCard() throws InterruptedException {
+    public void emptyCard()  {
 
-        Thread.sleep(2000);
+
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(emptyCartParagraf)));
         String emptyParagraf = driver.findElement(emptyCartParagraf).getText();
 
