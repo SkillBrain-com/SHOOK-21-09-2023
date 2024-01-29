@@ -1,4 +1,4 @@
-package seleniumTema1;
+package seleniumCap5Tema1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,10 +7,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
-import java.sql.SQLOutput;
-
-public class BasicWebPageExample {
-    public static void main(String[] args) {
+public class BasicWebPageExample  {
+    public static void main(String[] args) throws InterruptedException{
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--incognito");
 
@@ -34,6 +32,11 @@ public class BasicWebPageExample {
         System.out.println("Another paragraph text is: " +anotherText);
         WebElement clickAbout = driver.findElement(By.cssSelector("a[href='page?app=basicwebpageexample&t=About']"));
         action.doubleClick(clickAbout).perform();
+        WebElement evilTester = driver.findElement(By.linkText("EvilTester.com"));
+        action.click(evilTester).perform();
+        WebElement compendiumLink = driver.findElement(By.cssSelector("a[href='https://compendiumdev.co.uk']"));
+        action.click(compendiumLink).perform();
+        Thread.sleep(5000);
         driver.quit();
     }
 }

@@ -19,5 +19,6 @@ public class Buttons {
         WebElement rightClick = driver.findElement(By.id("rightClickBtn"));
         action.contextClick(rightClick).perform();
         driver.findElement(By.xpath("(//button[contains(text(),\"Click Me\")])[3]")).click();
+        driver.quit();
         }
     }
