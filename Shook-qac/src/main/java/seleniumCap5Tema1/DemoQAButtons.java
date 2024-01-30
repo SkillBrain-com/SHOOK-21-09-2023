@@ -1,13 +1,11 @@
-package com.skillbrain.mihailmacari.selenium1;
+package seleniumCap5Tema1;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-import java.util.List;
-
-public class Buttons {
+public class DemoQAButtons {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
         Faker faker = new Faker();

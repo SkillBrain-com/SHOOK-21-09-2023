@@ -12,7 +12,7 @@ public class TextBox {
         Driver.manage().window().maximize();
         Driver.get("https://demoqa.com/text-box");
 
-        Driver.findElement (By.id("userName")).sendKeys("Ionel");
+        Driver.findElement (By.id("userName")).sendKeys("Ionel Ion");
         Driver.findElement(By.cssSelector("#userEmail")).sendKeys(faker.internet().emailAddress());
         Driver.findElement(By.cssSelector("textarea[placeholder=\"Current Address\"]")).sendKeys(faker.address().fullAddress());
         Driver.findElement(By.cssSelector("#permanentAddress")).sendKeys(faker.address().fullAddress());

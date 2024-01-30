@@ -1,0 +1,12 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(éÚš¥8â¸Ý·Õ1
+]	java:S125"<This block of commented-out lines of code should be removed.(¬«Å”ýÿÿÿÿ8è¸Ý·Õ1
+c
+java:S1128"FRemove this unused import 'org.checkerframework.checker.units.qual.C'.(ÏýÁÊ8÷¸Ý·Õ1
+]
+java:S1128";Remove this unused import 'org.openqa.selenium.WebElement'.(‰ïµ”þÿÿÿÿ8÷¸Ý·Õ1
+g
+java:S1128	"ERemove this unused import 'org.openqa.selenium.chrome.ChromeOptions'.(ÿ¾Ïóüÿÿÿÿ8÷¸Ý·Õ1
+b
+java:S1128
+"ERemove this unused import 'org.openqa.selenium.interactions.Actions'.(ÅÑÃ8÷¸Ý·Õ1
