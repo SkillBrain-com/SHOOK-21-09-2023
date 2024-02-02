@@ -8,6 +8,8 @@ import org.testng.annotations.Test;
 public class RegisterAccountTest extends BasePage {
 
 
+
+
    @Test
     public void registerAccountPositiveTest(){
 

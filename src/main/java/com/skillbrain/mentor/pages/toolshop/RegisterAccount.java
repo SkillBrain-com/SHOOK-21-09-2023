@@ -10,7 +10,6 @@ import java.time.Duration;
 
 public class RegisterAccount {
 
-
     By registerAccount = By.cssSelector("a[data-test=\"register-link\"]");
     By fName = By.id("first_name");
     By lName = By.id("last_name");
@@ -63,6 +62,7 @@ public class RegisterAccount {
 
 
         driver.findElement(register).click();
+
 
     }
 
